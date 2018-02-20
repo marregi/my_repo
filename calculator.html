@@ -18,6 +18,12 @@ var num = document.getElementById("n1");
 
 num.value = Math.sin(num.value * Math.PI / 180.0);
 
+function exponent4() {
+
+var num = document.getElementById("n1");
+
+num.value = Math.pow(num.value, 4);
+
 }
 
 </script>
@@ -33,6 +39,7 @@ Number:
 <button onclick="cube()"> x^3 </button>
 <button onclick="sin()"> sin </button>
 
+<button onclick="exponent4()"> x^4 </button>
 </body>
 
 </html>
